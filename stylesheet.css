@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.top {
+    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url("images/cycling2.jpg");
+    background-size: auto 60vh;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    padding: 3em;
+}
