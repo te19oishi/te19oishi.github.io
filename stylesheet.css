@@ -34,12 +34,6 @@ video {
     max-width: 60vw;
 }
 
-.top {
-    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url("images/cycling2.jpg");
-    background-size: 100vw auto;
-    background-repeat: no-repeat;
-}
-
 h1 {
     font-size: 2em;
     padding: 2em;
@@ -48,6 +42,12 @@ h1 {
 h2 {
     font-size: 1.5em;
     text-align: center;
+}
+
+.top {
+    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url("images/cycling2.jpg");
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
 }
 
 .clearfix:after {
@@ -65,4 +65,8 @@ h2 {
     display: table-cell;
     *display: inline-block;
     background-color: #eee;
+}
+
+#about img {
+    max-width: 30vw;
 }
