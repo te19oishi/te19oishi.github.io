@@ -23,7 +23,7 @@ section {
 
 .top {
     background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url("images/cycling2.jpg");
-    background-size: auto 60vh;
+    background-size: 100vw auto;
     background-repeat: no-repeat;
 }
 
