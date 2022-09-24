@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+body {
+    display: flex;
+    text-align: center;
+}
+
+h2,
+p {
+    margin: 1em;
+}
+
+li img {
+    max-width: 60vw;
+}
+
+p {
+    font-size: 16px;
+}
+
+p img {
+    max-height: 1em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+video {
+    max-width: 60vw;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.top {
+    background: linear-gradient(rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url("images/cycling2.jpg");
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav li {
+    width: 25vw;
+    display: table-cell;
+    *display: inline-block;
+    background-color: #eee;
+}
+
+#about img {
+    max-width: 30vw;
+}
